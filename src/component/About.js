@@ -1,10 +1,12 @@
 import React from "react";
+import Header from "./Header";
 
+const About = (props) => {
 
-const About = () => {
-  return(<>
-    <h1>About</h1>
+  return (<>
+  <Header></Header>
+    <h1>This is {props.name} Page</h1>
   </>)
 }
 
-export default About;
+export default About
